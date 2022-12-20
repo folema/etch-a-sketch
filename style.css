@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Sketch&display=swap');
+
+.body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    font-family: 'Londrina Sketch', cursive;
+    font-size: 72px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+}
+.leftDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+}
+.canvas{
+    display: flex;
+    flex-wrap: wrap;
+    border: solid black 4px;
+    width: 500px;
+    height: 500px;
+    margin-left: 150px;
+}
+
+.clear, .newCanvas{
+    width: fit-content;
+    height: fit-content;
+    box-shadow: 0;
+    font-family: 'Londrina Sketch', cursive;
+    font-size: 30px;
+}
